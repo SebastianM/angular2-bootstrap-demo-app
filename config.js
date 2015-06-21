@@ -11,7 +11,7 @@ System.config({
 System.config({
   "map": {
     "angular2": "npm:angular2@2.0.0-alpha.27",
-    "angular2-bootstrap": "npm:angular2-bootstrap@dev",
+    "angular2-bootstrap": "npm:angular2-bootstrap@0.2.0",
     "reflect-metadata": "npm:reflect-metadata@0.1.0",
     "traceur": "github:jmcriffey/bower-traceur@0.0.88",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88",
@@ -49,7 +49,7 @@ System.config({
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
     },
-    "npm:angular2-bootstrap@dev": {
+    "npm:angular2-bootstrap@0.2.0": {
       "angular2": "npm:angular2@2.0.0-alpha.27"
     },
     "npm:angular2@2.0.0-alpha.27": {
