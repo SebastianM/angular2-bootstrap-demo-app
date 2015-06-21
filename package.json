@@ -1,0 +1,37 @@
+{
+  "name": "angular2-bootstrap",
+  "version": "0.1.0",
+  "description": "Demo application for the angular2-bootstrap project.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SebastianM/angular2-bootstrap-demo-app"
+  },
+  "keywords": [
+    "angular2-bootrap"
+  ],
+  "author": "Sebastian Müller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastianM/angular2-bootstrap-demo-app/issues"
+  },
+  "homepage": "https://github.com/SebastianM/angular2-bootstrap-demo-app",
+  "scripts": {
+    "bundle": "jspm bundle-sfx --minify reflect-metadata + zone.js + demoApp demo.bundle.js"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-alpha.27",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.0",
+      "zone.js": "npm:zone.js@^0.5.1"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  },
+  "devDependencies": {
+    "http-server": "^0.8.0",
+    "typescript": "^1.5.0-beta"
+  }
+}
