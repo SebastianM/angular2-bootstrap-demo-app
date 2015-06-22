@@ -1,20 +1,19 @@
 System.config({
-  "baseURL": "/",
   "transpiler": "traceur",
   "paths": {
-    "*": "*.js",
     "github:*": "jspm_packages/github/*.js",
-    "npm:*": "jspm_packages/npm/*.js"
+    "npm:*": "jspm_packages/npm/*.js",
+    "*": "*.js"
   }
 });
 
 System.config({
   "map": {
     "angular2": "npm:angular2@2.0.0-alpha.27",
-    "angular2-bootstrap": "npm:angular2-bootstrap@0.2.0",
+    "angular2-bootstrap": "npm:angular2-bootstrap@0.2.1",
     "reflect-metadata": "npm:reflect-metadata@0.1.0",
-    "traceur": "github:jmcriffey/bower-traceur@0.0.88",
-    "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88",
+    "traceur": "github:jmcriffey/bower-traceur@0.0.90",
+    "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.90",
     "zone.js": "npm:zone.js@0.5.1",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -49,7 +48,7 @@ System.config({
     "github:jspm/nodelibs-vm@0.1.0": {
       "vm-browserify": "npm:vm-browserify@0.0.4"
     },
-    "npm:angular2-bootstrap@0.2.0": {
+    "npm:angular2-bootstrap@0.2.1": {
       "angular2": "npm:angular2@2.0.0-alpha.27"
     },
     "npm:angular2@2.0.0-alpha.27": {
@@ -263,3 +262,4 @@ System.config({
     }
   }
 });
+
