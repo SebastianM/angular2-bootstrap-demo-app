@@ -6,9 +6,9 @@ import {Progressbar} from 'angular2-bootstrap/angular2-bootstrap';
 })
 @View({
   template: `
-    <h2 (click)="updateValue()">Progressbar</h2>
-    {{ abc }}
-    <boot-progressbar [value]="progressbarValue"></boot-progressbar>`,
+    <h2>Progressbar</h2>
+    <boot-progressbar [value]="progressbarValue"></boot-progressbar>
+    `,
   directives: [Progressbar]
 })
 class DemoAppCmp {
@@ -16,15 +16,10 @@ class DemoAppCmp {
 
   constructor() {
     this.progressbarValue = 10;
+
     setInterval(() => {
       this.progressbarValue = Math.random() * 100;
-      console.log(this.progressbarValue);
     }, 2000)
-  }
-
-  updateValue() {
-    console.log('UPDATE');
-    this.abc = 100;
   }
 }
 bootstrap(DemoAppCmp);
